@@ -42,6 +42,7 @@ frontend/
 └── package.json
 
 **Dependencies Used**
+
 react
 
 react-router-dom
@@ -51,9 +52,11 @@ axios
 bootstrap
 
 **API Integration**
+
 The frontend communicates with the backend through REST API calls defined in axios.js. Make sure the backend is running at the correct base URL (http://localhost:5000 or your deployment URL).
 
 **Sample User Flow**
+
 Visit /register to create a new account.
 or
 Log in with your credentials.
