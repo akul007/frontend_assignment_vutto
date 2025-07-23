@@ -1,0 +1,9 @@
+.custom-sidebar {
+  min-width: 180px; /* Or wider if needed */
+}
+
+.custom-link {
+  white-space: nowrap;       /* Don't allow breaking to next line */
+  overflow: hidden;
+  text-overflow: ellipsis;   /* Optional: if you want to truncate long labels */
+}

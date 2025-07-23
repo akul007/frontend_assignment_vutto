@@ -1,0 +1,36 @@
+/* Ensure gallery takes space on all screen sizes */
+.gallery-wrapper {
+  background-color: #f8f9fa;
+  overflow-y: auto;
+  padding: 16px;
+  height: auto;
+}
+
+.bike-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.bike-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+/* Ensure gallery shows up on mobile */
+@media (max-width: 767px) {
+  .gallery-wrapper {
+    display: block !important;
+    height: auto;
+  }
+
+  .bike-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bike-img {
+    max-height: 150px;
+  }
+}
