@@ -27,4 +27,41 @@ npm start
 
 This will run the React app on http://localhost:3000
 
+**Folder Structure**
+
+frontend/
+├── public/
+├── src/
+│   ├── assets/               # Static assets like images
+│   ├── components/           # Reusable components (e.g., Sidebar, BikeGallery)
+│   ├── pages/                # Main route components (Login, Register, Listings, etc.)
+│   ├── layout/               # Layout wrapper with sidebar
+│   ├── api/axios.js          # Axios instance with baseURL
+│   ├── styles/               # Custom CSS
+│   └── App.js / index.js     # Entry files
+└── package.json
+
+**Dependencies Used**
+react
+
+react-router-dom
+
+axios
+
+bootstrap
+
+**API Integration**
+The frontend communicates with the backend through REST API calls defined in axios.js. Make sure the backend is running at the correct base URL (http://localhost:5000 or your deployment URL).
+
+**Sample User Flow**
+Visit /register to create a new account.
+or
+Log in with your credentials.
+
+Browse or filter all bikes from the homepage.
+
+Add/edit/delete bikes from "My Listings".
+
+Click a bike card to view its full details.
+
 
