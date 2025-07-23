@@ -17,14 +17,14 @@ This is the frontend of **Vutto**, a second-hand bike marketplace built using **
 ## 🛠️ Setup Instructions
 
 **Navigate to the frontend folder**:
-   cd frontend
+cd frontend
 
 **Install dependencies**:
-
 npm install
 
 **Start the frontend server**:
 npm start
+
 This will run the React app on http://localhost:3000
 
 
