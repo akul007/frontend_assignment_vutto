@@ -27,19 +27,6 @@ npm start
 
 This will run the React app on http://localhost:3000
 
-**Folder Structure**
-
-frontend/
-├── public/
-├── src/
-│   ├── assets/               # Static assets like images
-│   ├── components/           # Reusable components (e.g., Sidebar, BikeGallery)
-│   ├── pages/                # Main route components (Login, Register, Listings, etc.)
-│   ├── layout/               # Layout wrapper with sidebar
-│   ├── api/axios.js          # Axios instance with baseURL
-│   ├── styles/               # Custom CSS
-│   └── App.js / index.js     # Entry files
-└── package.json
 
 **Dependencies Used**
 
